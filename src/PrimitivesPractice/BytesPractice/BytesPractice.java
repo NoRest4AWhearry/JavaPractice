@@ -3,9 +3,9 @@ package PrimitivesPractice.BytesPractice;
 /***********************************************************
  * * Created by: Allen Whearry Jr
  * * Created on: Sep. 29, 2015
- * <p/>
+ *
  * * instagram.com/NoRest4AWhearry
- * <p/>
+ *
  * * Project: JavaPractice
  ************************************************************/
 public class BytesPractice {
@@ -62,6 +62,7 @@ public class BytesPractice {
         System.out.println(Byte.compare(d, (byte)g)); // returns 0 if equal
         System.out.println("Byte value of byte d compared to Byte value of String K: " + Byte.valueOf(d).compareTo(Byte.valueOf(k)));
 
-
+        // Print all Byte values from min to max
+        for (byte l = min; l < max; l++) System.out.println(l);
     }
 }
