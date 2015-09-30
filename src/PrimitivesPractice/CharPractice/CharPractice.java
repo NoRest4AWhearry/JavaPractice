@@ -47,6 +47,9 @@ public class CharPractice {
         System.out.println("Char i is Alphabetic? " + Character.isAlphabetic(i));
         System.out.println("Char k is Alphabetic? " + Character.isAlphabetic(k));
         System.out.println("Char l is Alphabetic? " + Character.isAlphabetic(l));
+        System.out.println("Char i ('B') lowercase is " + Character.toLowerCase(i));
+        System.out.println("Char j ('b') uppercase is " + Character.toUpperCase(j));
+
 
         for (char x = 32; x <= 127; x++) {
             System.out.printf("Character %c is an alphabetic letter? %s\n", x, Character.isAlphabetic(x));
