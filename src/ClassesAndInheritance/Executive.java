@@ -9,17 +9,17 @@ package ClassesAndInheritance;
  * * Project: Employee Management System
  ************************************************************/
 public class Executive extends Employee {
-    private String jobTitle;
+    private CSuite jobTitle;
     private double salary;
     private double executiveBomus;
 
-    Executive(String firstName, String lastName, String jobTitle, double salary) {
+    Executive(String firstName, String lastName, CSuite jobTitle , double salary) {
         super(firstName, lastName);
         this.jobTitle = jobTitle;
         this.salary = salary;
     }
 
-    public String getJobTitle() {return jobTitle; }
+    public CSuite getJobTitle() {return jobTitle; }
 
     public double getSalary() {
         return salary + executiveBomus;
